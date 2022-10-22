@@ -1,0 +1,24 @@
+#set is an unordered coolection of datatypes,the elements are write in {},it has no duplicates
+#here we are discused whether the set in mutable or immutable 
+#mutable - we can change the elements in it , immutable - we can't change the elements
+
+s={'keerthana',20,56,89.99,'pooja'}
+print(s)
+
+#add                                   
+s.add(234)
+print(s)
+
+#discard
+s.discard(20)
+print(s)
+
+#remove
+s.remove(56)                                  
+print(s)                                
+
+#set is allowing modifications to performing add,remove ,discard ..so set is mutable  
+
+#indexing is not allowed in set , because set is unordered 
+#set only stores immutable elements like list , even we can't store set in set becasue  set is mutable 
+#set itself mutable 
