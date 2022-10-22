@@ -22,8 +22,23 @@ print(s)
 
 #set is allowing modifications to performing add,remove ,discard ..so set is mutable  
 
+#update
+s[23]=True
+print(s)                  #output is error
+
+#append
+s.append(12)
+print(s)                  #set object has no attribute append
+
 #indexing is not allowed in set , because set is unordered 
+#insert
+a.insert(2,989)           #output is error ,cause set is unordered
+
+#del
+del s                     # we deleted whole set s
+print(s)                  # s is not defined
 #set only stores immutable elements like list , even we can't store set in set becasue  set is mutable 
 #set itself mutable 
 
+Task completed 
 Thank You
